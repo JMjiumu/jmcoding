@@ -1,0 +1,4 @@
+const data = JSON.parse('{"key":"v-1eaeb558","path":"/category/%E5%BF%AB%E9%80%9F%E5%AF%BC%E8%88%AA/","title":"快速导航 分类","lang":"zh-CN","frontmatter":{"title":"快速导航 分类","feed":false,"sitemap":false,"blog":{"type":"category","name":"快速导航","key":"category"},"layout":"BlogCategory","description":"","head":[["meta",{"property":"og:url","content":"http://localhost:8080/jmcoding/jmcoding/category/%E5%BF%AB%E9%80%9F%E5%AF%BC%E8%88%AA/"}],["meta",{"property":"og:site_name","content":"九牧の学习笔记"}],["meta",{"property":"og:title","content":"快速导航 分类"}],["meta",{"property":"og:type","content":"website"}],["meta",{"property":"og:locale","content":"zh-CN"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"WebPage\\",\\"name\\":\\"快速导航 分类\\"}"]]},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":"","autoDesc":true}');
+export {
+  data
+};
