@@ -24,19 +24,6 @@ jobs:
       - name: Build
         run: npm install && npm run docs:build
 
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-          run_install: true
-
-
-      - name: 设置 Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: pnpm
-
       # 部署文档
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
